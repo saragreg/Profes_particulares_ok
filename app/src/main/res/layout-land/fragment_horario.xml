@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff69a"
+    tools:context=".FragmentHorario">
+
+
+    <TableLayout
+
+        android:id="@+id/tableLayout"
+        android:layout_width="509dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="LUNES"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MARTES"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MIERCOLES"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="JUEVES"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="VIERNES"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SABADO"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="DOMINGO"
+                android:textColor="@color/black" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dip">
+
+            <TextView
+                android:layout_width="92dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MAÑANA"
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/lm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickLun"
+                android:text="" />
+
+            <Button
+                android:id="@+id/mm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMar"
+                android:text="" />
+
+            <Button
+                android:id="@+id/xm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/jm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickJue"
+                android:text="" />
+
+            <Button
+                android:id="@+id/vm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickVie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/sm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickSab"
+                android:text="" />
+
+            <Button
+                android:id="@+id/dm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickDom"
+                android:text="" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MEDIODIA"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/lme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickLun"
+                android:text="" />
+
+
+            <Button
+                android:id="@+id/mme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMar"
+                android:text="" />
+
+            <Button
+                android:id="@+id/xme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/jme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickJue"
+                android:text="" />
+
+            <Button
+                android:id="@+id/vme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickVie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/sme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickSab"
+                android:text="" />
+
+            <Button
+                android:id="@+id/dme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickDom"
+                android:text="" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dip">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="TARDE"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/lt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickLun"
+                android:text="" />
+
+            <Button
+                android:id="@+id/mt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMar"
+                android:text="" />
+
+            <Button
+                android:id="@+id/xt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickMie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/jt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickJue"
+                android:text="" />
+
+            <Button
+                android:id="@+id/vt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickVie"
+                android:text="" />
+
+            <Button
+                android:id="@+id/st"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickSab"
+                android:text="" />
+
+            <Button
+                android:id="@+id/dt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onclickDom"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
